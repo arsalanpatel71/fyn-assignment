@@ -6,7 +6,6 @@
 <p align="center">
     <img src="https://img.shields.io/badge/React_(17.0.2)-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
     <img src="https://img.shields.io/badge/Django_(3.x)-092E20?style=for-the-badge&logo=django&logoColor=white" alt="django" />
-
     <img src="https://img.shields.io/badge/Rest_API-02303A?style=for-the-badge&logo=react-router&logoColor=white" alt="restAPI"/>
 </p>
 
