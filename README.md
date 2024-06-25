@@ -6,10 +6,8 @@
 <p align="center">
     <img src="https://img.shields.io/badge/React_(17.0.2)-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
     <img src="https://img.shields.io/badge/Django_(3.x)-092E20?style=for-the-badge&logo=django&logoColor=white" alt="django" />
-    <img src="https://img.shields.io/badge/Redux_(4.1.2)-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="redux" />
-    <img src="https://img.shields.io/badge/Chakra%20UI-3bc7bd?style=for-the-badge&logo=chakraui&logoColor=white" alt="chakra-ui"/>
+
     <img src="https://img.shields.io/badge/Rest_API-02303A?style=for-the-badge&logo=react-router&logoColor=white" alt="restAPI"/>
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/>     
 </p>
 
 <p align="center"> 
