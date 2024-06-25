@@ -29,8 +29,7 @@ const RevenueChart = () => {
         setIssues(formattedIssues);
         setComponents(componentsResponse.data);
         const formattedData = issuesResponse.data.map((issue) => ({
-          date: issue.created_at, // Use appropriate date field here
-          revenue: calculateRevenue(issue),
+          date: issue.created_at, 
           description: issue.description,
           vehicle: getVehicleName(issue.vehicle),
           component: getComponentCost(issue.component),
@@ -43,7 +42,6 @@ const RevenueChart = () => {
       });
   }, []);
 
-  // Function to calculate revenue based on issue data
   const calculateRevenue = (issue) => {
     if (issue.is_new_component) {
       const component = components.find((comp) => comp.id === issue.component);
@@ -53,10 +51,9 @@ const RevenueChart = () => {
     } else {
       return parseFloat(issue.repair_price);
     }
-    return 0; // Default value or handle case where component price not found
+    return 0; 
   };
 
-  // Helper functions to get vehicle and component details
   const getVehicleName = (id) => {
     const issue = issues.find((issue) => issue.id === id);
     return issue ? issue.vehicle : "";
